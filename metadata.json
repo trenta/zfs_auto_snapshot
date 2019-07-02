@@ -1,0 +1,28 @@
+{
+  "name": "trenta-zfs_auto_snapshot",
+  "version": "0.1.0",
+  "author": "trenta",
+  "summary": "Install and configure zfs-auto-snapshot",
+  "license": "Apache-2.0",
+  "source": "https://github.com/trenta/zfs_auto_snapshot",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "18.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+  "pdk-version": "1.11.1",
+  "template-url": "pdk-default#1.11.1",
+  "template-ref": "1.11.1-0-g2ff8c24"
+}

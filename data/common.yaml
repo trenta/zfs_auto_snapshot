@@ -1,0 +1,10 @@
+---
+zfs_auto_snapshot::enabled: true
+zfs_auto_snapshot::keep_15min_snaps: 4
+zfs_auto_snapshot::keep_hourly_snaps: 24
+zfs_auto_snapshot::keep_daily_snaps: 31
+zfs_auto_snapshot::keep_weekly_snaps: 8
+zfs_auto_snapshot::keep_monthly_snaps: 12
+zfs_auto_snapshot::package_ensure: present
+zfs_auto_snapshot::package_manage: true
+zfs_auto_snapshot::package_name: [ 'zfs-auto-snapshot' ]
